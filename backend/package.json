@@ -5,5 +5,26 @@
     "express": "^4.18.1",
     "mongoose": "^6.3.2",
     "nodemon": "^2.0.16"
-  }
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "simple todo app",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brainacs-rca/todo_G1.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "pacifique, hyguette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brainacs-rca/todo_G1/issues"
+  },
+  "homepage": "https://github.com/brainacs-rca/todo_G1#readme"
 }
