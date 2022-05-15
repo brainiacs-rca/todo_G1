@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 2rem;
+  background-image: url('./assets/bg.png');
+}
+.part-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10rem;
+  padding: 10rem 0 0 4rem
+}
+
+.part-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.scroll-container{
+  width: fit-content;
+  height: 60%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.todo-container {
+  width:30rem;
+  height: 100%;
+  background: white;
+  border-radius: .5rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem
+}
+.logo-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.logoc{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  box-shadow: 10px 5px 4px rgb(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  font-size: 2rem
+}
+.add-todo {
+  width: 80%;
+  height: 10%;
+  border-radius: .3rem;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add-todo b{
+  color: #8200E9;
+}
+.part-1 h1 {
+  text-shadow: 0px 20px 10px rgba(131, 144, 189, 0.42);
+}
+
+.add {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+input:focus {
+  outline: none;
+}
